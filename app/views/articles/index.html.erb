@@ -10,6 +10,7 @@
 
 
   <% @articles.each do |article| %>
+  <%= link_to article_path(article) do %>
     <div class="card">
       <div class="card_image">
         <%= image_tag 'eyecatch1.png' %>
@@ -31,6 +32,7 @@
         </div>
       </div>
     </div>
+    <% end %>
   <% end %>
 </div>
 

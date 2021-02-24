@@ -12,7 +12,7 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
   height: 100%;
-}
+}　
 
 *,
 *:before,
@@ -27,6 +27,11 @@ body {
   font-size: 1em;
   color: $text-base-color;
 }
+
+a {
+    text-decoration: none;
+    color: $text-base-color;
+  }
 
 .container {
   padding: 16px 16px;
