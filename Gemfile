@@ -26,6 +26,8 @@ gem 'faker'
 gem 'hamlit'
 gem 'annotate'
 gem 'rubocop-rails'
+gem 'better_errors'
+gem 'binding_of_caller'
 
 
 # Use Active Storage variant
