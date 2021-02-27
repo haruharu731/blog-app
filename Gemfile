@@ -28,6 +28,7 @@ gem 'annotate'
 gem 'rubocop-rails'
 gem 'better_errors'
 gem 'binding_of_caller'
+gem 'devise'
 
 
 # Use Active Storage variant
