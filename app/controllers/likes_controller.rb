@@ -6,4 +6,4 @@ class LikesController < ApplicationController
       article.likes.create!(user_id: current_user.id)
       redirect_to article_path(article)
     end
-  end
+end
